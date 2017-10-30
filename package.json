@@ -1,0 +1,25 @@
+{
+  "name": "emojify",
+  "version": "0.0.1",
+  "description": "Emojifies input text",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:jenasubodh/emojify.git"
+  },
+  "author": "Subodh Jena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jenasubodh/emojify/issues"
+  },
+  "homepage": "https://github.com/jenasubodh/emojify",
+  "scripts": {
+    "setup": "./node_modules/.bin/node-lambda setup",
+    "test": "./node_modules/.bin/node-lambda run",
+    "package": "./node_modules/.bin/node-lambda package",
+    "deploy": "./node_modules/.bin/node-lambda deploy"
+  },
+  "devDependencies": {
+    "node-lambda": "^0.9.0"
+  }
+}
