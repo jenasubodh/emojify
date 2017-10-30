@@ -21,5 +21,8 @@
   },
   "devDependencies": {
     "node-lambda": "^0.9.0"
+  },
+  "dependencies": {
+    "moji-translate": "^1.0.8"
   }
 }
